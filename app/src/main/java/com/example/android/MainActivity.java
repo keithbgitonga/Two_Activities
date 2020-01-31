@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mMessageEditText = (EditText) findViewById(R.id.editText_main);
         mReplyHeadTextView = (TextView) findViewById(R.id.text_header_reply);
         mReplyTextView = (TextView) findViewById(R.id.text_message_reply);
